@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--blue:#1A00E0;--blue2:#5B4BFF;--bluep:#CFC9F4;--white:#fff;--off:#F8F6FF;--muted:rgba(248,246,255,.6);--grid:rgba(255,255,255,.07);--beige:#F7F4EC;--ink:#2E2E2C;--inks:#6E6B63;}
+*{box-sizing:border-box;}
+body{margin:0;color:var(--off);background:var(--blue);background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);background-size:48px 48px;font-family:'DM Sans',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;line-height:1.55;}
+.wrap{max-width:660px;margin:0 auto;padding:48px 24px 90px;}
+.title{font-family:'Space Mono',ui-monospace,Menlo,monospace;font-size:18px;color:var(--white);margin:0;letter-spacing:-.01em;}
+.title b{font-weight:700;}.title .rest{color:var(--muted);font-weight:400;}
+.wave{color:var(--white);margin:14px 0 2px;display:block;}
+.lead{font-size:16px;color:var(--off);margin:12px 0 2px;max-width:62ch;}
+.sec{font-family:'Space Mono',ui-monospace,Menlo,monospace;font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin:34px 0 12px;}
+.item{background:var(--beige);border-radius:0;padding:20px 22px;margin:12px 0;}
+.meta{font-family:'Space Mono',ui-monospace,Menlo,monospace;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--inks);display:flex;align-items:center;gap:8px;flex-wrap:wrap;}
+.pill{font-family:'Space Mono',ui-monospace,Menlo,monospace;font-weight:700;font-size:11px;padding:1px 7px;border-radius:2px;}
+.hi{background:var(--blue);color:#fff;}.mid{background:var(--blue2);color:#fff;}.lo{background:var(--bluep);color:var(--blue);}.one{background:transparent;color:var(--blue);box-shadow:inset 0 0 0 1px rgba(26,0,224,.45);}
+.ttl{font-family:'Archivo',-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;font-weight:700;font-size:20px;line-height:1.22;margin:9px 0 0;}.ttl a{color:var(--blue);text-decoration:none;}
+.why{font-size:15px;color:var(--ink);margin-top:8px;max-width:60ch;}.why b{font-weight:600;}
+.grade{font-size:13px;color:var(--inks);margin-top:7px;}
+.src{font-family:'Space Mono',ui-monospace,Menlo,monospace;font-size:11px;color:var(--inks);margin-top:10px;}.src a{color:var(--inks);text-decoration:none;}
+.next{font-size:15px;color:var(--off);opacity:.9;margin-top:6px;max-width:60ch;}
+.foot{margin-top:42px;border-top:1px solid rgba(255,255,255,.14);padding-top:16px;font-family:'Space Mono',ui-monospace,Menlo,monospace;font-size:11px;color:var(--muted);}
+</style></head><body><div class="wrap">
+<p class="title"><b>WatchMe</b> <span class="rest">: AI cool stuff · June 21, 2026</span></p>
+<svg class="wave" width="56" height="8" viewBox="0 0 56 8" fill="none"><path d="M1 4 Q5 1 9 4 T17 4 T25 4 T33 4 T41 4 T49 4 T55 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+<p class="lead">The US government became the binding constraint on AI this week: an export-control order kept Anthropic's Fable 5 and Mythos 5 offline for nine straight days, and FERC ordered six grid operators to fast-track power for AI data centers.</p>
+
+<div class="sec">Top</div>
+
+<div class="item">
+  <div class="meta"><span class="pill hi">6</span> mentions · policy</div>
+  <div class="ttl"><a href="https://www.anthropic.com/news/fable-mythos-access">Fable 5 and Mythos 5 stay offline — day nine of the US export-control ban</a></div>
+  <div class="why">A US export-control directive has kept Anthropic's Fable 5 and Mythos 5 dark worldwide since June 12 · the trigger was a jailbreak exposing Mythos's cyber abilities, not a sale to a foreign state. The White House reportedly wants every frontier jailbreak found and removed before relaunch, a bar WIRED and the Washington Post quote researchers calling impossible. Comparison: first time Washington has pulled a live US model, vs prior export rules that only blocked chips and weights.</div>
+  <div class="grade">Top because it is confirmed by Anthropic's own statement plus Fortune and Al Jazeera, not a rumor · it sets the precedent for government-ordered model withdrawals.</div>
+  <div class="src"><a href="https://www.anthropic.com/news/fable-mythos-access">Anthropic · Fortune · Al Jazeera ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill hi">4</span> mentions · regulation</div>
+  <div class="ttl"><a href="https://www.americanactionforum.org/insight/ferc-data-center-orders-accelerate-grid-connection/">FERC orders six grid operators to fast-track power for AI data centers</a></div>
+  <div class="why">FERC issued Section 206 "show cause" orders on June 18 to every US regional grid operator except Texas, demanding faster interconnection for large loads · Chair Laura Swett called AI grid access a "national priority." The orders skip the years-long rulemaking process, a direct answer to Microsoft adding 4 GW in 18 months and CoreWeave targeting 1.7 GW by year-end. Who should worry: ratepayers, since who funds the grid upgrades is the unanswered question.</div>
+  <div class="grade">Top because it is a binding federal action naming specific operators, not a study or forecast · it rewrites the build math for every hyperscaler.</div>
+  <div class="src"><a href="https://www.americanactionforum.org/insight/ferc-data-center-orders-accelerate-grid-connection/">American Action Forum ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill hi">5</span> mentions · report</div>
+  <div class="ttl"><a href="https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/emerging-uses-ai-chatbots-news-and-what-it-means-journalism">10% of people worldwide now read news via AI chatbots, up from 7%</a></div>
+  <div class="why">The Reuters Institute's 2026 Digital News Report puts weekly chatbot news use at 10% globally and 17% among 18-24s · only ~42% of those users click through to the original article. Publishers face the dynamic Google search created, but sharper: being cited by ChatGPT drives discovery and almost no traffic. Comparison: 14% chatbot-news use in South Korea and Turkey vs 6% in the US.</div>
+  <div class="grade">Top because it is a primary, named Oxford dataset, not aggregator speculation · it quantifies the referral collapse publishers had only described anecdotally.</div>
+  <div class="src"><a href="https://reutersinstitute.politics.ox.ac.uk/digital-news-report/2026/emerging-uses-ai-chatbots-news-and-what-it-means-journalism">Reuters Institute ›</a></div>
+</div>
+
+<div class="sec">Notable</div>
+
+<div class="item">
+  <div class="meta"><span class="pill mid">4</span> mentions · model</div>
+  <div class="ttl"><a href="https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm">Gemini 3.5 Pro nears June GA with 2M-token context and Deep Think</a></div>
+  <div class="why">Google has Gemini 3.5 Pro in limited Vertex AI preview with nine days left on Pichai's self-imposed June deadline · confirmed specs are a 2M-token window and a "Deep Think" reasoning mode. Leaked pricing near $15/$60 per million tokens absorbs the use cases Google used to route to Ultra. What wasn't true yesterday: a 2M context becoming the frontier default, double Flash's window.</div>
+  <div class="src"><a href="https://www.techtimes.com/articles/317919/20260606/google-gemini-35-pro-nears-june-launch-2-million-token-context-deep-think-reasoning.htm">TechTimes ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill mid">3</span> mentions · model</div>
+  <div class="ttl"><a href="https://www.cfr.org/articles/deepseek-v4-signals-a-new-phase-in-the-u-s-china-ai-rivalry">DeepSeek V4 preview ships as a 1.6T-param MoE trained on Huawei Ascend</a></div>
+  <div class="why">DeepSeek released a V4 preview, a 1.6-trillion-parameter MoE trained on Huawei Ascend 950 chips instead of NVIDIA · the CFR calls it the best open-weight option today but still behind US closed frontier models. The hardware switch outweighs the benchmarks: it shows chip export controls can be routed around at training scale. Who should worry: NVIDIA's assumption that Chinese labs need its chips to train frontier MoEs.</div>
+  <div class="src"><a href="https://www.cfr.org/articles/deepseek-v4-signals-a-new-phase-in-the-u-s-china-ai-rivalry">CFR ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill mid">3</span> mentions · media</div>
+  <div class="ttl"><a href="https://variety.com/2026/film/global/luca-guadagnino-sam-altman-movie-artificial-dropped-amazon-1236785830/">Amazon drops Guadagnino's near-finished Sam Altman film 'Artificial'</a></div>
+  <div class="why">Amazon MGM shelved Luca Guadagnino's completed Altman drama "Artificial" (Andrew Garfield as Altman) and CAA is now shopping it · Amazon's only stated reason is the film would be "better served" by another studio. The unstated factor: Amazon's $50B OpenAI investment from February, against a script portraying Altman's 2023 firing unflatteringly. What to do differently: read any studio's AI coverage as conflicted when that studio is also an AI investor.</div>
+  <div class="src"><a href="https://variety.com/2026/film/global/luca-guadagnino-sam-altman-movie-artificial-dropped-amazon-1236785830/">Variety ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill lo">2</span> mentions · deal</div>
+  <div class="ttl"><a href="https://thecreatorsai.com/p/fable-5-shutdown-spacex-buys-cursor">SpaceX files $60B all-stock acquisition of Cursor with the SEC</a></div>
+  <div class="why">SpaceX filed a $60B all-stock bid for Cursor on June 16, folding the ~$4B-revenue editor into an xAI coding push and a new "Grok Build" product · close expected Q3 pending regulators. The logic is share recovery: Cursor has lost coding-tool ground to Claude Code and OpenAI Codex. Caveat: sourcing here is thinner than the rest of this digest, so treat terms as filed, not closed.</div>
+  <div class="src"><a href="https://thecreatorsai.com/p/fable-5-shutdown-spacex-buys-cursor">The Creators AI ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill lo">2</span> mentions · model</div>
+  <div class="ttl"><a href="https://releasebot.io/updates/xai">Grok 4.3 lands on Amazon Bedrock at $1.25/$2.50 per million tokens</a></div>
+  <div class="why">xAI put Grok 4.3 on Amazon Bedrock with a 1M-token window and configurable reasoning effort · AWS teams get it with no separate xAI contract. xAI claims the lowest hallucination rate of current frontier models, unverified by third parties. Comparison: Grok 4.3 vs Claude Code and Codex on enterprise distribution, where Bedrock is xAI's catch-up move.</div>
+  <div class="src"><a href="https://releasebot.io/updates/xai">xAI Releasebot ›</a></div>
+</div>
+
+<div class="sec">Weak signals</div>
+
+<div class="item">
+  <div class="meta"><span class="pill one">1</span> mention · program</div>
+  <div class="ttl"><a href="https://thecreatorsai.com/p/fable-5-shutdown-spacex-buys-cursor">OpenAI launches a $150M Partner Network targeting 300k certified consultants</a></div>
+  <div class="why">OpenAI opened its first global partner program on June 14, $150M, aiming for 300,000 certified consultants by December · it mirrors Anthropic's Claude Partner Network from June 3. The real target is locking up enterprise implementation capacity ahead of a rumored Q4 IPO. Single-source on the dollar figure, so treat the number as reported.</div>
+  <div class="src"><a href="https://thecreatorsai.com/p/fable-5-shutdown-spacex-buys-cursor">The Creators AI ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill lo">2</span> mentions · study</div>
+  <div class="ttl"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026">97% of developers now use AI coding tools, only a third have governance</a></div>
+  <div class="why">A Black Duck study puts AI coding-tool adoption at 97%, with Copilot at 83% and Claude Code at 63%, but only a third of orgs have full governance for AI-written code · the gap is review, IP, and security scanning. The figure that stands out is 63% for Claude Code, a product under a year old. What changed: AI coding is table stakes, not an edge.</div>
+  <div class="src"><a href="https://www.buildfastwithai.com/blogs/ai-news-today-june-21-2026">Black Duck via Build Fast with AI ›</a></div>
+</div>
+
+<div class="item">
+  <div class="meta"><span class="pill one">1</span> mention · regulation</div>
+  <div class="ttl"><a href="https://www.axios.com/local/chicago/2026/06/02/illinois-data-center-regulation-bills-fail-ai-boom">Illinois POWER Act fails, leaving data-center incentives intact</a></div>
+  <div class="why">Illinois's POWER Act died in the legislature and Pritzker's bid to pause data-center tax incentives failed, partly on construction-union opposition · the state hosts 222+ data centers. Chicago-area power demand is projected to rise 900%. This is the state-level mirror of FERC: Washington accelerates grid access, Springfield can't add guardrails.</div>
+  <div class="src"><a href="https://www.axios.com/local/chicago/2026/06/02/illinois-data-center-regulation-bills-fail-ai-boom">Axios Chicago ›</a></div>
+</div>
+
+<div class="sec">What to watch next</div>
+<p class="next">Whether Anthropic and the White House agree a monitoring framework that brings Fable 5 back before July 1 — the terms will template how Washington pulls and restores any US model.</p>
+<div class="foot">automatically updated every Sunday at 7am</div>
+</div></body></html>
